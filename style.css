@@ -2,6 +2,7 @@
     padding: 0px;
     margin:0px;
     font-family: 'roboto',sans-serif;
+    text-decoration: none;
 }
 
 
@@ -64,6 +65,8 @@ ul a{
     font-size: 14px;
 }
 
+
+
 ul a:hover{
     color:#fff;
 }
@@ -72,7 +75,7 @@ i{
     padding-right: 10px;
 }
 
-li:hover{
+.sidebar  li:hover{
     background-color: #606060;
     color:#fff;
 }
