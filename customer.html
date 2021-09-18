@@ -43,6 +43,125 @@
      </nav>
  
 
+     <section class="container-fluid mt-5 pt-3">
+         <div class="row">
+             <div class="col-sm-12">
+                <button class="btn btn-success" type="button" data-bs-target ="#modaltarget" data-bs-toggle="modal"><i class="fas fa-plus fa px-1"></i>Add new customer</button>
+                <div class="modal fade" tabindex="-1" id="modaltarget">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Add new Customer</h5>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                       <div class="form-floating mb-2">
+                                           <input class="form-control" type="text" placeholder="name" id="name">
+                                           <label for="name">FullName</label>
+                                       </div>
+                                       <div class="form-floating  mb-2">
+                                        <input class="form-control" type="text" placeholder="name" id="name">
+                                        <label for="name">Age</label>
+                                    </div>
+                                        <label class="form-label" for="genderselect">Select Gender</label>
+                                        <select id="genderselect" class="form-select mb-2">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                        <label class="form-label" for="genderselect">Address</label>
+                                            <textarea class="form-control mb-2" rows="5"></textarea>
+                                            <div class="form-floating  mb-2">
+                                                <input class="form-control" type="text" placeholder="name" id="name">
+                                                <label for="name">Phone Number</label>
+                                            </div>
+                                       
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary">Add</button>
+                                <button class="btn btn-danger">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <input type="text" class="form-control float-end w-25" placeholder="Search here Ex. Juan Dela Cruz">
+                 <button class="btn btn-secondary float-end mx-2" type="submit"><i class="fas fa-search fa"></i>Search</button>
+                <div class="table-responsive-sm">
+                    <table class="table table-striped table-hover">
+                         <thead>
+                             <tr>
+                       
+                            <th>FullName</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Address</th>
+                            <th>Phone Number</th>
+                            <th>Action</th>
+                        
+                            </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                            <td>John Doe</td>
+                            <td>23</td>
+                            <td>Male</td>
+                            <td>California street</td>
+                            <td>39494324</td>
+                            <td><button class="btn btn-primary mx-1"><i class="fas fa-edit fa"></i>Edit</button><button class="btn btn-danger mx-1"><i class="fas fa-trash fa"></i>Delete</button></td>
+                            </tr>
+                            <tr>
+                                <td>Marry Crist</td>
+                                <td>25</td>
+                                <td>Female</td>
+                                <td>Ohio</td>
+                                <td>564564342</td>
+                                <td><button class="btn btn-primary mx-1"><i class="fas fa-edit fa"></i>Edit</button><button class="btn btn-danger mx-1"><i class="fas fa-trash fa"></i>Delete</button></td>
+                             </tr>
+                             <tr>
+                                <td>Will Smithen</td>
+                                <td>36</td>
+                                <td>Male</td>
+                                <td>New York</td>
+                                <td>3456345</td>
+                                <td><button class="btn btn-primary mx-1"><i class="fas fa-edit fa"></i>Edit</button><button class="btn btn-danger mx-1"><i class="fas fa-trash fa"></i>Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Justine Limbo</td>
+                                    <td>35</td>
+                                    <td>Male</td>
+                                    <td>Florida</td>
+                                    <td>5654657</td>
+                                    <td><button class="btn btn-primary mx-1"><i class="fas fa-edit fa"></i>Edit</button><button class="btn btn-danger mx-1"><i class="fas fa-trash fa"></i>Delete</button></td>
+                                 </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+         </div>
+     </section>
+
+          <div class="modal fade" tabindex="-1" id="modal-target">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title">Add new Customer</h5>
+                 </div>
+                 <div class="modal-body">
+                     <form>
+                         <div class="form-group">
+                            <div class="form-floating">
+                                <input type="text" placeholder="name">
+                                <label for="name">Name</label>
+                            </div>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </div>
+
 
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
