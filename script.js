@@ -27,7 +27,7 @@ function resizeTempNavbar(){
 
 function toggleSmallScreenNavbar(){
 
-    if(window.innerWidth <= 600){
+    if(window.innerWidth <= 683){
 
         toggleNavbar("","35px");
         isScreenSizeSmall = true;
